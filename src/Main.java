@@ -8,7 +8,7 @@ public class Main {
         String choiceTwo = "jupiter";
         String choiceThree = "saturn";
 
-        String correctAnswer = choiceThree;
+        String correctAnswer = choiceTwo;
 
         // Write a print statement asking the question
         System.out.println(question);
@@ -21,6 +21,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // Retrieve the user's input
         String input = scanner.next();
+
 
         // If the user's input matches the correctAnswer...
         // then the user is correct and we want to print out a congrats message to the user.
